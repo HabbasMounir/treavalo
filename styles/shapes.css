@@ -22,75 +22,79 @@ svg {
 
 .one {
   position: absolute;
-  left: 454px;
-  top: 210px;
+left: 59.2%;
+top: 41.8%;
 }
 
 .two {
   position: absolute;
-  left: 189px;
-  top: 210px;
+/* 2 */
+left: 24.8%;
+top: 41.8%;
 }
 
 .three {
   position: absolute;
-  left: 331px;
-  top: 460px;
+ /* 3 */
+left: 43.2%;
+top: 74.4%;
 }
+
 
 .four {
   position: absolute;
-  left: 454px;
-  top: 86px;
-}
-
-.four {
-  position: absolute;
-  left: 343px;
-  top: 86px;
-  translate: 0% -50%;
+left: 44.8%;
+top: 11.2%;
 }
 
 .six {
   position: absolute;
-  left: 202px;
-  top: 86px;
-  transition: all 1s;
-  translate: -50% -50%;
+left: 12%;
+top: 11.2%;
 }
 
 .seven {
   position: absolute;
-  left: 343px;
-  top: 210px;
-  translate: -50% -50%;
+left: 30.4%;
+top: 27.4%;
 }
 
 .eight {
   position: absolute;
-  left: 454px;
-  top: 460px;
-  translate: 0% -50%;
+ left: 59.2%;
+top: 60%;
 }
 
 .nine {
   position: absolute;
   left: 205px;
   top: 360px;
+
+  /* 9 */
+
+left: 55.6%;
+top: 60%;
+
 }
 
 .ten {
   position: absolute;
-  left: 205px;
-  top: 471px;
-  translate: 0% -50%;
+left: 26.8%;
+top: 60%;
+
 }
 
 .eleven {
   position: absolute;
-  left: 343px;
-  top: 338px;
-  translate: 0% -50%;
+ /* 11 */
+
+position: absolute;
+left: 44.8%;
+right: 26.4%;
+top: 44%;
+bottom: 27.2%;
+
+
 }
 
 
