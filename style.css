@@ -55,6 +55,13 @@ min-height: 100vh;
     font-size: 24px;
     font-weight: var(--w-800);
 }
+.navbar .nav-cnt  a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: var(--font-Poppins);
+    font-weight: var(--w-500);
+    color: var(--main-Color);
+}
 .navbar .nav-cnt> a {
     text-decoration: none;
     font-size: 16px;
@@ -66,6 +73,7 @@ min-height: 100vh;
     transition: ease .5s;
 
 }
+
 .navbar .nav-cnt >a:hover {
     background: transparent;
     border-radius: 20px;
@@ -105,7 +113,7 @@ min-height: 100vh;
     background-color: var(--main-Color);
     transform: scale(2);
   }
-  .navbar .nav-cnt button:hover {
+  .navbar .nav-cnt button:hover>a {
     color: chartreuse;
   }
 
