@@ -113,7 +113,8 @@ min-height: 100vh;
     background-color: var(--main-Color);
     transform: scale(2);
   }
-  .navbar .nav-cnt button:hover >a {
+  .navbar .nav-cnt button:hover >a,
+  .navbar .nav-cnt button:active >a {
     color: chartreuse;
   }
 
