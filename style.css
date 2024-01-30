@@ -113,7 +113,7 @@ min-height: 100vh;
     background-color: var(--main-Color);
     transform: scale(2);
   }
-  .navbar .nav-cnt button:hover>a {
+  .navbar .nav-cnt button:hover {
     color: chartreuse;
   }
 
@@ -225,6 +225,7 @@ text-align: center;
 
   .travelo-title{
     /* transition: ease .4s; */
+    all: unset;
     transition: ease .4s;
     font-family:poppins ;
     font-size: 182.92px;
@@ -241,11 +242,13 @@ text-align: center;
   pointer-events:none;
   translate: 0px 0;
   display: flex;
+  margin: 0;
+  padding: 0;
   }
   .travelo-title.hidden span{ opacity:0 ;scale: 1;}
   .travelo-title.hidden span:nth-child(odd){ opacity:0;translate:0 -20px  ;}
   .travelo-title.hidden span:nth-child(even){ opacity:0 ;translate:0 10px  ;}
-  .travelo-title span{opacity:1 ;scale: 1;    transition: ease .8s;  }
+  .travelo-title span{ all: unset; opacity:1 ;scale: 1;  line-height: 1; transition: ease .8s;margin: 0;translate:0 -5px  ;  }
   .travelo-title.hidden{
     transition: ease .4s;
 opacity: 0;
